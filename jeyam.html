@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <title>My Profile</title>
+ <style>
+ body {
+ font-family:arial,sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: brown;
+ }
+ header {
+ background-color: black;
+ color: #fff;
+ text-align: center;
+ padding: 2rem 0;
+ position: relative;/* add this*/
+ }
+ .header-content h1 {
+ font-size: 3rem;
+ }
+ /*add style for the round profile picture*/
+ .profile-picture {
+ width: 100px;/* adjust the size as needed*/
+ height: 100px;
+ border-radius: 80%;/* create a circular shap*/
+ object-fit: cover;
+ position: absolute;
+ top: 75px;
+ left: 75px;
+ }
+ nav{
+ background-color: black;
+ color: #fff;
+ text-align: center;
+ }
+ nav ul {
+ list-style-type: none;
+ padding: 0%;
+ }
+ nav ul li {
+ display: inline;
+ margin: 0 20px;
+}
+ nav ul li a {
+ text-decoration: none;
+ color: #fff;
+ }
+ .section-content {
+ background-color: #fff;
+ padding: 2rem;
+ margin: 1rem;
+ border-radius: 20px;
+ box-shadow: 0 0 10px rgba(0,0,0,1);
+ }
+ .download-button {
+ background-color:#333;
+ color: #fff;
+ padding: 0.5rem 1rem;
+ text-decoration: none;
+ border-radius: 20px;
+ display: inline-block;
+ margin-top: 10px;
+ }
+ .download-button:hover {
+ background-color: #555;
+ }
+ footer {
+ text-align: center;
+ padding: 1rem;
+ background-color: #333;
+ color: #fff;
+ }
+ ul{
+ list-style-type: square;
+ padding-left: 20px;
+ }
+ </style>
+ </head>
+ <body>
+ <header>
+ <div class="header-content">
+ <!--add your profile picture here-->
+ <img src="" alt="your profile picture"
+ class="profile-picture">
+<h1>jeyam</h1>
+ <p>Student of vivekananda collage</p>
+ </div>
+ </header>
+ <nav>
+ <ul>
+ <li><a href="#about">About</a></li>
+ <li><a href="#education">education</a></li>
+ <li><a href="#skills"></a>skills</li>
+ <li><a href="#projects">projects</a></li>
+ <li><a href="#resume"></a></li>
+ </ul>
+ </nav>
+ <section id="About">
+ <div class="section-content">
+ <h2>about me</h2>
+ <p>Hello guys i am jeyam and iam studing in BCA in vkc</p>
+ </div>
+ </section>
+ <section id="education">
+ <div class="section-content">
+ <h2>B.C.A</h2>
+ <p>manonmainum sutharanar university</p>
+ </div>
+ </section>
+ <section id="skills">
+ <div class="section-content">
+ <h2>atheltic</h2>
+ <p>running<br>shotbut<br>longjump<br>relay(100,200)</p>
+ </div>
+ </section>
+ <section id="projects">
+ <div class="section-content">
+ <h2>home project</h2>
+ <p>java<br>python<br>c++<br>c..<br>html<br>tally</p>
+ </div>
+ </section>
+<footer>
+ <p>&copy;2023 jeyam</p>
+ </footer>
+ </body>
+ </html>
